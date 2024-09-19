@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My Resume</title>
 </head>
 
-<body style="font-family: Arial, Helvetica, sans-serif;">
+<body>
     <h1>Nirmal Chandra Kunal</h1>
-    <img src="./images/my-pic.png" alt="nirmal pic" style="width:100%;max-width:120px;border-radius:50%">
+    <img src="./images/my-pic.png" alt="nirmal pic" id="mypic">
     <h2>Summary</h2>
     <p>An engineering graduate (B.E) from Pune University having experience with TCS iON (on payroll of Core Integra
         Consulting Services Pvt Ltd) seeking rewarding and challenging career growth in the IT field.
@@ -22,9 +23,9 @@
     <!-- Experience Section Start -->
     <h2>Work Experience</h2>
     <ol>
-        <li><strong><div style="color: rgb(138, 4, 4);">TCS iON (Core Integra)</strong></div></li>
+        <li><strong><div class="info">TCS iON (Core Integra)</strong></div></li>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul class="disc">
             <li><strong>Position:</strong> Operation Executive</li>
             <li><strong>Time frame:</strong> 15th Oct 18 to 5th Feb 21</li>
             <li><strong>Location:</strong> Varanasi, U.P</li>
@@ -34,10 +35,7 @@
                 <li>Provide IT support at respective venue for smooth conduction of Online Examination.</li>
                 <li>Proper checking of both primary & backup switches before exam day.</li>
                 <li>Maintaining & troubleshooting of the network at the exam venue if needed.</li>
-                <li>Maintaining LAN cable and I/O port on pre-exam day as well as on exam day.</li>
                 <li>Continuous monitoring of network performance & Tomcat Server for smooth completion of exams on time.</li>
-                <li>Coordinating with various teams to understand the slippages in a project.</li>
-                <li>Conducting a pre-meeting with the team and make them understand the risk involved in the projects.</li>
                 <li>Responsible for the post-exam verification process of the banking sector.</li>
             </ul>
         </ul>
@@ -48,8 +46,8 @@
     <!-- Skills Section Start -->
     <h2>Skills</h2>
     <ol>
-        <li><div style="color: rgb(138, 4, 4);"><b>Programming Languages</b></div></li>
-            <ul style="list-style-type:disc;">
+        <li><div class="info"><b>Programming Languages</b></div></li>
+            <ul class="disc">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>SQL</li>
@@ -59,22 +57,22 @@
                 <li>Rest APIs</li>  
             </ul>
         <br>
-        <li><div style="color: rgb(138, 4, 4);"><b>Tools</b></div></li>
-            <ul style="list-style-type: disc;">
+        <li><div class="info"><b>Tools</b></div></li>
+            <ul class="disc">
                 <li>Postman</li>
                 <li>PostgreSQL</li>
                 <li>MySQL Workbench</li>
                 <li>MS-Office</li>
             </ul>
         <br>
-        <li><div style="color: rgb(138, 4, 4);"><b>Operating System</b></div></li>
-            <ul style="list-style-type: disc;">
+        <li><div class="info"><b>Operating System</b></div></li>
+            <ul class="disc">
                 <li>Linux</li>
                 <li>Windows</li>
             </ul>
         <br>
-        <li><div style="color: rgb(138, 4, 4);"><b>Language</b></div></li>
-            <ul style="list-style-type: disc;">
+        <li><div class="info"><b>Language</b></div></li>
+            <ul class="disc">
                 <li>Hindi</li>
                 <li>English</li>
             </ul>
@@ -112,9 +110,11 @@
         <li>Team Management | Service-focused</li>
     </ul>
     <!-- Other Information Section End  -->
-    
+
     <!-- Footer Section Start -->
     <p style="font-size: 14px;">&copy; Nirmal Chandra Kunal. All rights reserved.</p>
     <!-- Footer Section End -->
+    
 </body>
+
 </html>
